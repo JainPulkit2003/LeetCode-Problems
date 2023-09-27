@@ -30,6 +30,7 @@ class Solution {
         int i = 1;
         while(i < prev)
         {
+
             previous = previous.next;
             i++;
         }
