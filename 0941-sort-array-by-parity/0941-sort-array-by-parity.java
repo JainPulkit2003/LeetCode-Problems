@@ -19,11 +19,13 @@ class Solution {
         {
             if(nums[i]%2==0)
             {
-                arr[even++] = nums[i];
+                arr[even] = nums[i];
+                even++;
             }
             if(nums[i]%2!=0)
             {
-                arr[odd++] = nums[i];
+                arr[odd] = nums[i];
+                odd++;
             }
         }
         return arr;
