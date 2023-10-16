@@ -30,7 +30,8 @@ class Solution {
                 list1 = list1.next;
             }
             temp.next = list2;
-
+            
+            //now swapping list1 and list2
             ListNode swap = list1;
             list1 = list2;
             list2 = swap;
